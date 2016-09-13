@@ -24,7 +24,8 @@
   "autoload": {
     "psr-4": {
       "Terminus\\": ["php/", "php/Terminus/"],
-      "Pantheon\\Terminus\\": "src/"
+      "Pantheon\\Terminus\\": "src/",
+      "Pantheon\\Terminus\\UnitTests\\": "tests/new_unit_tests/"
     }
   },
   "require-dev": {
